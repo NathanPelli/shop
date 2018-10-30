@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+option java_package = "inesv.proto";
+option java_outer_classname = "BigOne";
+message SearchRequest {
+    required string query = 1;
+    optional int32 page_number = 2;
+    optional int32 result_per_page = 3;
+}

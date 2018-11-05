@@ -19,6 +19,7 @@
         <module>shop-protobuf</module>
         <module>shop-server</module>
         <module>shop-client</module>
+        <module>shop-springboot</module>
     </modules>
 
     <!-- spring boot项目 -->
